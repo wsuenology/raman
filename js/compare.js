@@ -15,11 +15,11 @@ function myRayleigh() {
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 600) {
+        if (x < 0 || x > 795) {
             dx = -dx;
             color = "black";
         }
-        if (y < 0 || y > 400) {
+        if (y < 0 || y > 595) {
             dy = -dy;
             color = "black";
         }
@@ -48,17 +48,17 @@ function myRaman() {
 
     function draw() {
         context = myCanvas2.getContext('2d');
-        context.clearRect(0, 0, 600, 600);
+        context.clearRect(0, 0, 800, 800);
         context.beginPath();
         context.fillStyle = color;
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 600) {
+        if (x < 0 || x > 795) {
             dx = -dx;
             color = get_random_color();
         }
-        if (y < 0 || y > 500) {
+        if (y < 0 || y > 595) {
             dy = -dy;
             color = get_random_color();
         }
