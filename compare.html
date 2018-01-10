@@ -12,15 +12,19 @@
     </script>
 </head>
 <body>
-    <div id="container">
-    <canvas id="myCanvas" width="800" height="600" style="text-align: center;"></canvas> 
+    <div style = "float: left; width: 50%;">
+    <canvas id="myCanvas" width="800" height="600"></canvas> 
+    </div>
+    <div style = "float: left; width: 50%; margin-left: 10px;">
+    <canvas id="myCanvas" width="800" height="600"></canvas> 
     </div>
   
     <input id="button" type="submit" name="button" value="Rayleigh scattering" onclick="myRayleigh();" onclick="showDiv('toggle')")>
-    <h4 style="float: left;">Raleigh scattering, light changes direction but not frequency when it collides with another material or molecule. This is called elastic scattering.</h4>                                                
+    <h4 style="float: center;">Raleigh scattering, light changes direction but not frequency when it collides with another material or molecule. This is called elastic scattering.</h4>                                                
     </input>
         <br>
     <input id="button" type="submit" name="button" value="Raman scattering" onclick="myRaman();">
-    <h4 style="float: left;">In Raman scattering, light changes both direction and frequency when it collides with another material or molecule.  This is called inelastic scattering.</h4>
+    <h4 style="float: center;">In Raman scattering, light changes both direction and frequency when it collides with another material or molecule.  This is called inelastic scattering.</h4>
+        </input>
         </body>
 </html>
