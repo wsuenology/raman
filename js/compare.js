@@ -9,13 +9,13 @@ function myRayleigh() {
 
     function draw() {
         context = myCanvas1.getContext('2d');
-        context.clearRect(0, 0, 795, 795);
+        context.clearRect(0, 0, 800, 800);
         context.beginPath();
         context.fillStyle = color;
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 775) {
+        if (x < 0 || x > 800
             dx = -dx;
             color = "black";
         }
@@ -48,13 +48,13 @@ function myRaman() {
 
     function draw() {
         context = myCanvas2.getContext('2d');
-        context.clearRect(0, 0, 795, 795);
+        context.clearRect(0, 0, 800, 800
         context.beginPath();
         context.fillStyle = color;
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 775) {
+        if (x < 0 || x > 800
             dx = -dx;
             color = get_random_color();
         }
