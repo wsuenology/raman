@@ -1,3 +1,4 @@
+
 function myRayleigh() {
     var context;
     var dx = 4;
@@ -66,6 +67,7 @@ function myRaman() {
     }
     setInterval(draw, 25);
 }
+
 
 
 
