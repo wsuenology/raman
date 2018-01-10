@@ -15,7 +15,7 @@ function myRayleigh() {
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 800) {
+        if (x < 0 || x > 775) {
             dx = -dx;
             color = "black";
         }
@@ -54,7 +54,7 @@ function myRaman() {
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 800) {
+        if (x < 0 || x > 775) {
             dx = -dx;
             color = get_random_color();
         }
