@@ -48,7 +48,7 @@ function myRaman() {
 
     function draw() {
         context = myCanvas2.getContext('2d');
-        context.clearRect(0, 0, 800, 800
+        context.clearRect(0, 0, 800, 800);
         context.beginPath();
         context.fillStyle = color;
         context.arc(x, y, 30, 0, Math.PI * 2, true);
