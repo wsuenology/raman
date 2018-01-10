@@ -1,4 +1,3 @@
-
 function myRayleigh() {
     var context;
     var dx = 4;
@@ -15,18 +14,18 @@ function myRayleigh() {
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 800) {
+        if (x < 10 || x > 790) {
             dx = -dx;
             color = "black";
         }
-        if (y < 0 || y > 600) {
+        if (y < 10 || y > 590) {
             dy = -dy;
             color = "black";
         }
         x += dx;
         y += dy;
     }
-    setInterval(draw, 25);
+    setInterval(draw, 30);
 }
 
 function get_random_color() {
@@ -54,11 +53,11 @@ function myRaman() {
         context.arc(x, y, 30, 0, Math.PI * 2, true);
         context.closePath();
         context.fill();
-        if (x < 0 || x > 800) {
+        if (x < 10 || x > 790) {
             dx = -dx;
             color = get_random_color();
         }
-        if (y < 0 || y > 600) {
+        if (y < 10 || y > 590) {
             dy = -dy;
             color = get_random_color();
         }
@@ -67,6 +66,7 @@ function myRaman() {
     }
     setInterval(draw, 25);
 }
+
 
 
 
