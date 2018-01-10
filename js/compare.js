@@ -8,7 +8,7 @@ function myRayleigh() {
     var color = "black";
 
     function draw() {
-        context = myCanvas1.getContext('2d');
+        context = myCanvas.getContext('2d');
         context.clearRect(0, 0, 800, 800);
         context.beginPath();
         context.fillStyle = color;
@@ -47,7 +47,7 @@ function myRaman() {
     var color = get_random_color();
 
     function draw() {
-        context = myCanvas2.getContext('2d');
+        context = myCanvas.getContext('2d');
         context.clearRect(0, 0, 800, 800);
         context.beginPath();
         context.fillStyle = color;
