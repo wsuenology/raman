@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Rayleigh vs Raman example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    </script>
+</head>
+
+<body>
+    <div class="container" style="padding-top: 25px;"> 
+        <div class="row">
+            <div class="col-md-4" style="margin-left: -250px;" >
+                <canvas id="myCanvas1" width="800" height="600"></canvas> 
+                    <input id="button" type="submit" name="button" value="Rayleigh scattering" onclick="myRayleigh();"></input>
+                    <h4 style="width: 800px">In Rayleigh scattering, light changes direction but not frequency when it collides with another material or molecule. 
+                     This is called elastic scattering.</h4>
+                </div>
+            <div class="col-md-4" style="margin-left: 450px;">
+                <canvas id="myCanvas2" width="800" height="600"></canvas> 
+                    <input id="button" type="submit" name="button" value="Raman scattering" onclick="myRaman();"></input>    
+                    <h4 style="width: 800px">In Raman scattering, light changes both direction and frequency when it collides with another material or molecule. 
+                     This is called inelastic scattering.</h4>                                            
+                </div>                              
+            </div>
+    </div>
+</body>
+</html>
